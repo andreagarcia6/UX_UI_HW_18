@@ -1,0 +1,109 @@
+body {
+    background-color: #9BC09F;
+}
+.inline-block {
+display: inline-block;
+vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    text-align: left;
+}
+nav {
+    width: 98%;
+    padding: 1%;
+}
+ul {
+    width: 90%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+    text-align: right;
+    word-spacing: 1cm;
+}
+nav .logo {
+    float: left;
+}
+.heroimg {
+    background-color: #FFFFFF;
+    padding: 2%;
+    margin: 4%;
+}
+.heroimg {
+    height: 400px;
+    padding: 1px;
+}
+#aboutme {
+    text-align: center;
+    }
+h1 {
+    padding: 4%;
+    font-size: 50px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+    float: left;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+}
+p {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+    vertical-align: text-bottom; 
+    padding: 2%;
+}
+.content {
+    text-align: center;
+    background-color: #FFEAEA;
+    margin: 4%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+
+
+
+}   
+}
+footer {
+    background: #FDFEDE;
+    margin: 4%;
+}
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 1%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+    border-radius: 8px;
+    margin: 4px 2px;
+    text-align: left;
+    position: relative; 
+}
+.container1 {
+    position: sticky;
+    text-align: left;
+    padding: 2%;
+    float: left;
+}
+.container2 {
+    position: sticky;
+    text-align: right;
+    padding: 2%;
+}
+
