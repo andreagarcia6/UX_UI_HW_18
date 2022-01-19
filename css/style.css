@@ -29,8 +29,6 @@ nav .logo {
     background-color: #FFFFFF;
     padding: 2%;
     margin: 4%;
-}
-.heroimg {
     height: 400px;
     padding: 1px;
 }
@@ -73,11 +71,135 @@ p {
     font-family: 'Cairo', sans-serif;
     font-family: 'Oooh Baby', cursive;
     font-family: 'Red Rose', cursive;
-
-
-
 }   
+
+h3 {
+    font-size: 40px;
+    padding: 4%;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
 }
+
+h4 {
+    font-size: 35px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 
+    'sahsimg sahsDescription'
+    'epaimg epaDescription'
+    'syteimg syteDescription';
+}
+.sahs {
+   grid-area: sahsimg; 
+   padding: 4%;
+   margin: 5%;
+}
+#sahs {
+    font-size: 20px;
+}
+.sahsDescription {
+    grid-area: 'sahsDescription';
+    text-align: center;
+}
+
+
+.epa {
+    grid-area: 'epaimg';
+    padding: 4%;
+    margin: 5%;
+}
+#epa {
+    font-size: 20px;
+}
+.epaDescription {
+    grid-area: 'epaDescription';
+    text-align: center;
+}
+
+.syte {
+    grid-area: 'syteimg';
+    padding: 4%;
+    margin: 5%;
+}
+#syte {
+    font-size: 20px;
+}
+.syteDescription {
+    grid-area: 'syteDescription';
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.firstSkill {
+    flex-direction: column;
+    padding: 4%;
+    width: 23%;
+}
+#prototyping {
+    font-size: 18px;
+}
+.prototypingImg {
+    flex-direction: row;
+}
+
+.secondSkill {
+    flex-direction: column;
+    padding: 4%;
+    width: 23%;
+}
+#research {
+    font-size: 18px;
+}
+.researchImg {
+    flex-direction: row;
+}
+
+.thirdSkill {
+    flex-direction: column;
+    padding: 4%;
+    width: 23%;
+}
+#design {
+    font-size: 18px;
+}
+.designImg {
+    flex-direction: row;
+}
+
+.fourthSkill {
+    flex-direction: column;
+    padding: 4%;
+    width: 23%;
+}
+#tools {
+    font-size: 18px;
+}
+.toolsImg {
+    flex-direction: row;
+}
+
 footer {
     background: #FDFEDE;
     margin: 4%;
@@ -107,3 +229,22 @@ button {
     padding: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+    .workGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'sahsimg' 
+        'sahsDescription'
+        'epaimg'
+        'epaDescription'
+        'syteimg'
+        'syteDescription';
+    }
+    .flexContainer {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
